@@ -1,5 +1,5 @@
 val x = 1
 
 fun main() {
-    println(x)
+    println(x + 2)
 }
