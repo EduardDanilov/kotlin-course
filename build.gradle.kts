@@ -2,7 +2,7 @@ plugins {
     kotlin("jvm") version "2.2.0"
 }
 
-group = "org.example"
+group = "lessons"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -18,4 +18,16 @@ tasks.test {
 }
 kotlin {
     jvmToolchain(21)
+}
+
+tasks.withType<JavaCompile> {
+    options.encoding = "UTF-8"
+}
+
+tasks.withType<Test> {
+    systemProperty("file.encoding", "UTF-8")
+}
+
+tasks.withType<JavaExec> {
+    systemProperty("file.encoding", "UTF-8")
 }
