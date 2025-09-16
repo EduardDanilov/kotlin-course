@@ -1,4 +1,4 @@
-package lessons.lesson2
+package lessons.lesson3
 
 const val wheels: Int = 4
 

@@ -1,4 +1,4 @@
-package lessons.lesson3.homework
+package lessons.lesson4.homework
 
 import javax.swing.plaf.multi.MultiPanelUI
 

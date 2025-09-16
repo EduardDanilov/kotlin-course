@@ -1,4 +1,4 @@
-package lessons.lesson2
+package lessons.lesson3
 
 fun main() {
     var car = Auto()
